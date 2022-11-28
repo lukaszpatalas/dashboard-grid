@@ -1,3 +1,7 @@
 img {
     width: 25px;
 }
+
+.container, .sidebar, .header, .main-content {
+    display: grid;
+}
