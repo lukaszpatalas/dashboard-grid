@@ -5,3 +5,8 @@ img {
 .container, .sidebar, .header, .main-content {
     display: grid;
 }
+
+.container {
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 80%;
+}
