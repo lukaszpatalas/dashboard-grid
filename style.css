@@ -38,3 +38,15 @@ ul {
     "projects announcements"
     "projects trending";
 }
+
+.trending {
+    grid-area: trending;
+}
+
+.announcements {
+    grid-area: announcements;
+}
+
+.projects {
+    grid-area: projects;
+}
