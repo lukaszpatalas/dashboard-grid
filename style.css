@@ -57,3 +57,8 @@ ul {
   grid-auto-rows: 250px;
   gap: 2em;
 }
+
+.side-box {
+  display: grid;
+  grid-template-columns: 1fr;
+}
