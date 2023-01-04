@@ -40,13 +40,20 @@ ul {
 }
 
 .trending {
-    grid-area: trending;
+  grid-area: trending;
 }
 
 .announcements {
-    grid-area: announcements;
+  grid-area: announcements;
 }
 
 .projects {
-    grid-area: projects;
+  grid-area: projects;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 250px;
+  gap: 2em;
 }
