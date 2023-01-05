@@ -61,14 +61,20 @@ ul {
 .side-box {
   display: grid;
   grid-template-columns: 1fr;
+  padding: 0;
 }
 
 .trend-boxes {
   display: grid;
   grid-template-columns: 1fr;
+  padding: 0;
 }
 
 .trend-box {
   display: grid;
-  grid-template-columns: 0.3fr 1fr;
+  grid-template-columns: 0.1fr 1fr;
+}
+
+.margin-top-zero {
+  margin-top: 0;
 }
