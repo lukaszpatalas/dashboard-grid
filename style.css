@@ -63,7 +63,12 @@ ul {
   grid-template-columns: 1fr;
 }
 
-.trend-box {
+.trend-boxes {
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.trend-box {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
 }
