@@ -83,6 +83,14 @@ ul {
   display: grid;
 }
 
+.flex {
+  display: flex;
+}
+
 .center {
   justify-self: center; 
+}
+
+.columns {
+  grid-template-columns: 3fr 1fr;
 }
